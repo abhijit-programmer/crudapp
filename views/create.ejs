@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav id="navbar">
+        <h1>CRUD Website</h1>
+    </nav>
+
+    <section class="navigation">
+        <a href="/">Create</a>
+        <a href="/list">Show</a>
+    </section>
+
+    <!-- form container  -->
+    <section id="form-container">
+        <form action="/createUser" method="POST">
+            <div id="form-grid">
+                <input type="text" name="firstName" class="form-input grid-1" id="fname" placeholder="First Name">
+                <input type="text" name="lastName" class="form-input grid-2" id="lname" placeholder="Last Name">
+                <input type="email" name="email" class="form-input grid-3" id="email" placeholder="Email">
+                <input type="text" name="mobile" class="form-input grid-4" id="mobile" placeholder="Mobile">
+                <input type="submit" value="ADD" id="submit-btn">
+            </div>
+            
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>Copywright &copy; Abhijit Paul</p>
+    </footer>
+</body>
+</html>

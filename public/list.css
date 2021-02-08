@@ -1,0 +1,46 @@
+#user-list-container {
+    padding: 20px;
+}
+
+#user-list {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#user-list, #user-list th, #user-list td {
+    border: 1px solid #c8d6e5;
+    color: #c8d6e5;
+    padding: 5px;
+}
+
+#user-list th {
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#user-list td {
+    font-size: 14px;
+}
+
+.trash-icon {
+    text-align: center;
+}
+
+.trash-icon .trash {
+    color: #ee5253;
+}
+
+#goback-btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #576574;
+    color: #c8d6e5;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
